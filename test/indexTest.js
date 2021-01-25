@@ -26,8 +26,7 @@ describe( "Deciduous", () => {
   } )
 
   it( 'has a static method `definition` that uses `super.definition` and expands on it', () => {
-    expect( Deciduous.definition() )
-      .to.eql( "A tree is a perennial plant with an elongated stem, or trunk, supporting branches and leaves. Deciduous trees shed their leaves annually." )
+    expect( Deciduous.definition() ).to.eql("A tree is a perennial plant with an elongated stem, or trunk, supporting branches and leaves. Deciduous trees shed their leaves annually.")
   } )
 
 } )
